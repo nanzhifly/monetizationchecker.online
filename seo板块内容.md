@@ -18,6 +18,27 @@ Our tool helps you quickly find out if any YouTube channel or video is eligible 
   Access simplified financial metrics to help content creators evaluate and improve their monetization strategy.
 
 ---
+## How to Check If a YouTube Channel Is Monetized
+Method 1: Use the YouTube Monetization Checker Tool
+Simply paste your YouTube channel URL into the tool above. Within seconds, you’ll know if the channel is monetized. This online checker is the fastest and easiest way to verify monetization status — no manual steps needed.
+
+Method 2: Look for Monetization Signs Manually
+Since November 17, 2023, YouTube removed the is_monetization_enabled tag from its source code. This means you can no longer check monetization status directly using browser tools.
+
+However, some signs still suggest a channel is monetized:
+
+The channel has a “Join” button for memberships
+
+Ads appear on multiple videos
+
+The channel is linked with a YouTube MCN (Multi-Channel Network) or uses a CMS
+
+The channel has over 1,000 subscribers and 4,000 watch hours in the past 12 months
+
+These indicators don’t guarantee monetization, but they strongly suggest the channel is part of the YouTube Partner Program and earning revenue.
+
+Old Method (No Longer Works)
+Before November 2023, users could check if a channel was monetized by viewing the page source and searching for is_monetization_enabled. This method was slow, technical, and often inaccurate — especially when individual videos were monetized but the channel wasn’t fully approved.
 
 ## 🧽 How to Use
 

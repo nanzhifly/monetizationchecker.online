@@ -6,24 +6,24 @@ import { ChevronDownIcon } from '@heroicons/react/24/outline';
 // 展示常见问题，手风琴交互，卡片风格，英文界面，注释为中文
 const faqs = [
   {
-    question: "How can I tell if someone else's channel is monetized?",
+    question: 'How to Check If Other YouTube Channels Are Monetized',
     answer:
-      'Look for signs like ads during videos, the "Join" button on the channel, and interactive features like Super Chat or Memberships.'
+      'To see if a YouTube channel is monetized, visit their channel page and look for signs like a "Join" button or Super Chat features during live streams. Also, check if ads appear on their videos — if they do, it\'s a strong sign the channel is earning revenue through the YouTube Partner Program.'
   },
   {
-    question: 'Does this tool show how much a YouTube video earns?',
+    question: 'How to Check Your YouTube Monetization Earnings',
     answer:
-      'We provide estimated revenue based on engagement, view count, and subscriber metrics - ideal for evaluating monetization potential.'
+      'Log in to YouTube Studio, go to the Analytics tab, and then click on Revenue to view your monetization earnings in detail. For easier tracking and more insights at a glance, you can also use our YouTube Monetization Checker Tool. It simplifies the process and gives you a clear overview of your potential income.'
   },
   {
-    question: 'Is this tool safe to use?',
+    question: 'How to Use Keywords to Improve Your Monetization Chances',
     answer:
-      "Absolutely. We do not store your input, and no YouTube login is required. It's secure and anonymous."
+      'Want to boost your monetization success? Start with keyword research. Find popular and relevant keywords that match your content, then include them naturally in your video titles, descriptions, and tags. This helps your videos rank higher in search results, increases views, and leads to more watch time — all of which improve your monetization potential.'
   },
   {
-    question: 'How can I increase my monetization chances on YouTube?',
+    question: 'What Other Monetization Options Does YouTube Offer Besides Ads?',
     answer:
-      "Focus on long watch times, increase audience engagement, and follow YouTube's monetization guidelines closely. Optimize video titles, tags, and descriptions with relevant keywords to reach more viewers."
+      'Besides ad revenue, YouTube provides several other ways to earn money:\n\n• Channel Memberships\n• Super Chat & Super Stickers\n• Merchandise Shelf (Product Sales)\n• YouTube Premium Revenue\n• Brand Sponsorships or Paid Promotions\n\nThese options let creators diversify their income and build multiple revenue streams from their content.'
   },
 ];
 
@@ -61,7 +61,7 @@ export default function FAQSection() {
                   />
                 </div>
                 {openIdx === idx && (
-                  <div className="px-6 pb-5 text-gray-500 text-sm leading-relaxed">
+                  <div className="px-6 pb-5 text-gray-500 text-sm leading-relaxed whitespace-pre-line">
                     {item.answer}
                   </div>
                 )}

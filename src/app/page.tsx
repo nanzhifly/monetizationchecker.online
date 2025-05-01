@@ -1,5 +1,6 @@
 import HeroSection from '@/components/sections/HeroSection';
 import CoreFeatures from '@/components/sections/CoreFeatures';
+import HowToCheck from '@/components/sections/HowToCheck';
 import HowToUse from '@/components/sections/HowToUse';
 import MonetizationRequirements from '@/components/sections/MonetizationRequirements';
 import WhyUseOurTool from '@/components/sections/WhyUseOurTool';
@@ -11,6 +12,7 @@ export default function Home() {
     <main className="min-h-screen">
       <HeroSection />
       <CoreFeatures />
+      <HowToCheck />
       <HowToUse />
       <MonetizationRequirements />
       <WhyUseOurTool />

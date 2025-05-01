@@ -52,7 +52,7 @@ export default function MonetizationRequirements() {
         <div className="bg-white/95 rounded-2xl shadow-2xl px-8 py-14 md:p-16">
           {/* 标题和副标题 */}
           <h2 className="text-3xl font-extrabold text-center mb-4 bg-gradient-to-r from-red-500 via-pink-500 to-blue-500 bg-clip-text text-transparent">
-            Monetization Requirements
+            YouTube Monetization Requirements
           </h2>
           <p className="text-lg text-gray-600 text-center mb-10">
             To qualify for YouTube monetization under the YouTube Partner Program (YPP), a channel must meet these criteria:

@@ -32,8 +32,8 @@ export default function HowToUse() {
         <div className="bg-white/95 rounded-2xl shadow-2xl p-10 md:p-14">
           {/* 标题部分 */}
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl mb-2">
-              How to Use Our Tool
+            <h2 className="text-3xl md:text-4xl font-extrabold text-center mb-4 bg-gradient-to-r from-red-500 via-pink-500 to-blue-500 bg-clip-text text-transparent">
+              How to Use Our YouTube Monetization Checker Tool?
             </h2>
             <p className="mt-2 text-lg text-gray-600">
               Getting started takes just a few seconds. No login required.

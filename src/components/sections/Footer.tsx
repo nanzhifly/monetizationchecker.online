@@ -3,9 +3,9 @@ import { FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa';
 // Footer Section
 // 网站页脚，深色底，白色文字，社交图标，英文界面，注释为中文
 const navLinks = [
-  { name: 'Privacy Policy', href: '#' },
-  { name: 'Terms of Service', href: '#' },
-  { name: 'Contact', href: '#' },
+  { name: 'Privacy Policy', href: '/privacy-policy' },
+  { name: 'Terms of Service', href: '/terms-of-service' },
+  { name: 'Contact', href: '/contact' },
 ];
 
 const socialLinks = [
@@ -16,7 +16,7 @@ const socialLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-gray-300 pt-12 pb-8 mt-12 border-t border-gray-800">
+    <footer className="bg-gray-900 text-gray-300 pt-12 pb-8 border-t border-gray-800">
       <div className="max-w-4xl mx-auto px-4 flex flex-col items-center gap-6">
         {/* 第一行：社交图标 */}
         <div className="flex gap-4 mb-2">
