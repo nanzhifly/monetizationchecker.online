@@ -26,7 +26,7 @@ const steps = [
 
 export default function HowToUse() {
   return (
-    <section className="py-20 bg-gradient-to-b from-gray-50 via-blue-50 to-white">
+    <section className="py-16 bg-gradient-to-b from-gray-50 via-blue-50 to-white">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* 大卡片包裹所有步骤 */}
         <div className="bg-white/95 rounded-2xl shadow-2xl p-10 md:p-14">

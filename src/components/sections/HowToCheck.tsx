@@ -24,10 +24,10 @@ export default function HowToCheck() {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
+    <section className="py-12 bg-gradient-to-b from-gray-50 to-white">
       <div className="max-w-3xl mx-auto px-4">
         {/* 大卡片容器 */}
-        <div className="bg-white/95 rounded-2xl shadow-2xl px-8 py-14 md:p-16">
+        <div className="bg-white/95 rounded-2xl shadow-2xl px-8 py-10 md:p-12">
           <h2 className="text-3xl md:text-4xl font-extrabold text-center mb-8 bg-gradient-to-r from-red-500 via-pink-500 to-blue-500 bg-clip-text text-transparent">
             How to Check If a YouTube Channel Is Monetized?
           </h2>

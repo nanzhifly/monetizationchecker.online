@@ -32,10 +32,10 @@ export default function FAQSection() {
   const [openIdx, setOpenIdx] = useState<number | null>(null);
 
   return (
-    <section className="py-20 bg-gradient-to-b from-white via-gray-50 to-blue-50">
+    <section className="py-10 bg-gradient-to-b from-white via-gray-50 to-blue-50">
       <div className="max-w-3xl mx-auto px-4">
         {/* 大卡片容器 */}
-        <div className="bg-white/95 rounded-2xl shadow-2xl px-8 py-14 md:p-16">
+        <div className="bg-white/95 rounded-2xl shadow-2xl px-8 py-10 md:p-12">
           {/* 标题和副标题 */}
           <h2 className="text-3xl font-extrabold text-center mb-4 bg-gradient-to-r from-red-500 via-pink-500 to-blue-500 bg-clip-text text-transparent">
             Frequently Asked Questions
