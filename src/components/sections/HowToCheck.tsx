@@ -24,57 +24,79 @@ export default function HowToCheck() {
   ];
 
   return (
-    <section className="py-12 bg-gradient-to-b from-gray-50 to-white">
-      <div className="max-w-3xl mx-auto px-4">
-        {/* 大卡片容器 */}
-        <div className="bg-white/95 rounded-2xl shadow-2xl px-8 py-10 md:p-12">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-center mb-8 bg-gradient-to-r from-red-500 via-pink-500 to-blue-500 bg-clip-text text-transparent">
+    <section>
+      <div className="max-w-[800px] mx-auto my-8">
+        <div className="my-4 p-4 rounded-xl bg-white shadow">
+          <h2 className="text-center font-bold">
             How to Check If a YouTube Channel Is Monetized?
           </h2>
+          <p>
+            Checking if a YouTube channel is monetized is quick and easy with our YouTube Monetization Checker. Just follow these simple steps:
+          </p>
+          <ol className="list-decimal pl-6">
+            <li>Open YouTube in your browser or app and copy the URL of the YouTube channel you want to check.</li>
+            <li>Go to our website using any device—mobile, tablet, or desktop.</li>
+            <li>Paste the channel URL into the input field at the top of the page.</li>
+            <li>Click on the "Check Now" button.</li>
+            <li>You'll instantly see a detailed report showing the channel's monetization status and other key metrics like total views.</li>
+          </ol>
+          <p>
+            No sign-up or download is needed. All you need is a valid YouTube channel link, and our tool will take care of the rest.
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+}
 
-          {/* Method 1: Tool */}
-          <div className="mb-16">
-            <h3 className="text-2xl font-bold mb-4 text-gray-900">Method 1: Use the YouTube Monetization Checker Tool</h3>
-            <p className="text-lg text-gray-600 mb-6">
-              Simply paste your YouTube channel URL into the tool above. Within seconds, you'll know if the channel is monetized. This online checker is the fastest and easiest way to verify monetization status — no manual steps needed.
-            </p>
-          </div>
+// 新增：How to Check If a YouTube Video Is Monetized？板块
+export function HowToCheckVideoMonetization() {
+  return (
+    <section>
+      <div className="max-w-[800px] mx-auto my-8">
+        <div className="my-4 p-4 rounded-xl bg-white shadow">
+          <h2 className="text-center font-bold">
+            How to Check If a YouTube Video Is Monetized?
+          </h2>
+          <p>
+            Wondering if a specific YouTube video is showing ads? Here's how to get a general idea:
+          </p>
+          <ol className="number-list list-decimal pl-8">
+            <li><span className="font-bold">Look for Ads on the Video:</span> If you see ads before, during, or after the video, it may indicate monetization—but this isn't always the case.</li>
+            <li><span className="font-bold">Check the Page Source (Advanced):</span> You can inspect the video's source code and search for keywords like <code>yt_ad</code>. If present, ads are likely enabled.</li>
+            <li><span className="font-bold">Note:</span> Since late 2020, YouTube may show ads on non-monetized videos. This means ad presence doesn't always mean the creator earns from it.</li>
+            <li><span className="font-bold">Consider Copyright Claims:</span> If a video contains copyrighted material, ads may appear—but the revenue could go to the copyright owner or YouTube, not the uploader.</li>
+          </ol>
+          <p>
+            For a more reliable result, use tools like our YouTube Monetization Checker, which evaluates the video alongside the channel's monetization eligibility.
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+}
 
-          {/* Method 2: Manual Check */}
-          <div className="mb-16">
-            <h3 className="text-2xl font-bold mb-4 text-gray-900">Method 2: Look for Monetization Signs Manually</h3>
-            <p className="text-lg text-gray-600 mb-6">
-              Since November 17, 2023, YouTube removed the is_monetization_enabled tag from its source code. This means you can no longer check monetization status directly using browser tools.
-            </p>
-            <p className="text-lg text-gray-600 mb-6">
-              However, some signs still suggest a channel is monetized:
-            </p>
-            
-            {/* Monetization Indicators */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-              {manualIndicators.map((indicator, index) => (
-                <div
-                  key={index}
-                  className="flex items-center gap-3 p-4 bg-gray-50 rounded-xl border border-gray-100 hover:border-red-200 transition"
-                >
-                  {indicator.icon}
-                  <span className="text-gray-700">{indicator.text}</span>
-                </div>
-              ))}
-            </div>
-            
-            <p className="text-gray-600 italic">
-              These indicators don't guarantee monetization, but they strongly suggest the channel is part of the YouTube Partner Program and earning revenue.
-            </p>
-          </div>
-
-          {/* Old Method */}
-          <div className="bg-gray-50 rounded-xl p-6 border border-gray-200">
-            <h3 className="text-xl font-bold mb-3 text-gray-900">Old Method (No Longer Works)</h3>
-            <p className="text-gray-600">
-              Before November 2023, users could check if a channel was monetized by viewing the page source and searching for is_monetization_enabled. This method was slow, technical, and often inaccurate — especially when individual videos were monetized but the channel wasn't fully approved.
-            </p>
-          </div>
+// 新增：How to Check If a YouTube Shorts Video Is Monetized？板块
+export function HowToCheckShortsMonetization() {
+  return (
+    <section>
+      <div className="max-w-[800px] mx-auto my-8">
+        <div className="my-4 p-4 rounded-xl bg-white shadow">
+          <h2 className="text-center font-bold">
+            How to Check If a YouTube Shorts Video Is Monetized?
+          </h2>
+          <p>
+            Shorts have different monetization rules than regular videos. Here's what to look for:
+          </p>
+          <ol className="number-list list-decimal pl-8">
+            <li><span className="font-bold">YouTube Partner Program (YPP) Required:</span> Shorts can only be monetized if the creator is part of the YouTube Partner Program.</li>
+            <li><span className="font-bold">Content Must Be Advertiser-Friendly:</span> Family-friendly and original content is more likely to be approved for monetization.</li>
+            <li><span className="font-bold">Lower Earnings Metrics:</span> Shorts usually have lower CPM and RPM, so even monetized videos may generate minimal revenue.</li>
+            <li><span className="font-bold">Revenue Sharing for Shorts (Since Feb 2023):</span> YouTube now shares ad revenue on Shorts, replacing the previous Shorts Fund. However, only compliant content is eligible.</li>
+          </ol>
+          <p>
+            Using our YouTube Monetization Checker, you can get insights into whether a channel's Shorts are likely monetized. While not 100% precise, it gives a helpful overview.
+          </p>
         </div>
       </div>
     </section>

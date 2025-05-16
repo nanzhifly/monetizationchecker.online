@@ -36,35 +36,26 @@ export default function WhyUseOurTool() {
   ];
 
   return (
-    <section className="py-10 bg-gradient-to-b from-blue-50 via-white to-gray-50">
-      <div className="max-w-3xl mx-auto px-4">
-        {/* 大卡片容器 */}
-        <div className="bg-white/95 rounded-2xl shadow-2xl px-8 py-10 md:p-12">
-          {/* 标题和副标题 */}
-          <h2 className="text-3xl font-extrabold text-center mb-4 bg-gradient-to-r from-red-500 via-pink-500 to-blue-500 bg-clip-text text-transparent">
+    <section>
+      <div className="max-w-[800px] mx-auto my-8">
+        <div className="my-4 p-4 rounded-xl bg-white shadow">
+          <h2 className="text-center font-bold">
             Why Use Our YouTube Monetization Checker Tool?
           </h2>
-          <p className="text-lg text-gray-600 text-center mb-12">
-            Discover the unique value of our tool and why it stands out from other solutions.
+          <p>
+            Our YouTube Monetization Checker is designed to make it easy for anyone to explore the monetization status and potential earnings of any public YouTube channel. Here's why it's worth using:
           </p>
-
-          {/* 工具优势卡片分栏 */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-            {advantages.map((item, idx) => (
-              <div
-                key={idx}
-                className={`bg-gray-50 rounded-2xl shadow p-7 flex flex-col items-center text-center border border-gray-100 transition group cursor-pointer hover:shadow-2xl hover:-translate-y-1 ${borderColors[idx]}`}
-              >
-                {item.icon}
-                <h3 className="font-bold text-lg mb-2 text-gray-900 group-hover:text-red-500 transition">
-                  {item.title}
-                </h3>
-                <p className="text-gray-500 text-sm leading-relaxed">
-                  {item.desc}
-                </p>
-              </div>
-            ))}
-          </div>
+          <ol className="number-list list-decimal pl-8">
+            <li><span className="font-bold">Fast and Easy to Use:</span> Just enter the YouTube channel URL—no account, login, or installation required. Get results in seconds.</li>
+            <li><span className="font-bold">Supports All Devices:</span> Whether you're on a phone, tablet, or desktop, our tool works seamlessly on Android, iOS, Windows, and macOS.</li>
+            <li><span className="font-bold">Real-Time Data:</span> Instantly see if a channel meets YouTube's monetization criteria and get basic performance insights like view count.</li>
+            <li><span className="font-bold">No Downloads or Extensions Needed:</span> Everything runs in your browser. You don't need to install anything.</li>
+            <li><span className="font-bold">Great for Creators and Viewers:</span> Whether you're a creator checking your own progress, or just curious about another channel, this tool is built for everyone.</li>
+            <li><span className="font-bold">Completely Free:</span> You can use our checker as often as you like—there are no hidden fees or subscription plans.</li>
+          </ol>
+          <p>
+            With our YouTube Monetization Checker, you get a simple, no-hassle way to assess whether a channel is eligible for monetization and how it's performing overall.
+          </p>
         </div>
       </div>
     </section>

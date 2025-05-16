@@ -28,32 +28,21 @@ export default function CoreFeatures() {
   ];
 
   return (
-    <section className="py-12 bg-gradient-to-b from-blue-50 via-white to-gray-50">
-      <div className="max-w-3xl mx-auto px-4">
-        {/* 大卡片容器 */}
-        <div className="bg-white/95 rounded-2xl shadow-2xl px-8 py-10 md:p-12">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-center mb-8 bg-gradient-to-r from-red-500 via-pink-500 to-blue-500 bg-clip-text text-transparent">
-            What is the YouTube Monetization Checker?
+    <section>
+      <div className="max-w-[800px] mx-auto my-8">
+        <div className="bg-white rounded-xl shadow my-4 p-4">
+          <h2 className="text-center font-bold">
+            What is YouTube Monetization Checker?
           </h2>
-          <p className="text-lg text-gray-600 text-center mb-14 max-w-2xl mx-auto">
-            Our tool helps you quickly find out if any YouTube channel or video is eligible for monetization — no sign-up needed, no delay.
+          <p>
+            YouTube Monetization Checker is a free online tool designed to help you estimate how much a YouTube channel could potentially earn. Whether you're curious about your favorite YouTuber's revenue or want to explore monetization potential for your own channel, this tool gives you a quick and easy overview.
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-            {features.map((f, i) => (
-              <div
-                key={i}
-                className="bg-white rounded-2xl shadow-lg p-8 flex flex-col items-center text-center border border-gray-100 hover:shadow-2xl hover:border-red-400 transition group cursor-pointer"
-              >
-                {f.icon}
-                <h3 className="font-bold text-xl mb-3 text-gray-900 group-hover:text-red-500 transition">
-                  {f.title}
-                </h3>
-                <p className="text-gray-500 text-base leading-relaxed">
-                  {f.desc}
-                </p>
-              </div>
-            ))}
-          </div>
+          <p>
+            You can check the earnings potential of any public YouTube channel using just the channel URL. No need to install any extensions or apps—everything runs directly in your browser, on any device including Android, iOS, Windows, and macOS.
+          </p>
+          <p>
+            All calculations are handled on our secure server. Simply enter the channel link and get instant insights into how well the channel is performing and whether it meets YouTube's monetization requirements.
+          </p>
         </div>
       </div>
     </section>

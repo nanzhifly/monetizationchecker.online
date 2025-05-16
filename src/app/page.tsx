@@ -1,8 +1,9 @@
 import HeroSection from '@/components/sections/HeroSection';
 import CoreFeatures from '@/components/sections/CoreFeatures';
-import HowToCheck from '@/components/sections/HowToCheck';
+import HowToCheck, { HowToCheckVideoMonetization, HowToCheckShortsMonetization } from '@/components/sections/HowToCheck';
 import HowToUse from '@/components/sections/HowToUse';
-import MonetizationRequirements from '@/components/sections/MonetizationRequirements';
+import MonetizationRequirements, { HowTheCheckerWorks } from '@/components/sections/MonetizationRequirements';
+import WhyNotMonetized from '@/components/sections/WhyNotMonetized';
 import WhyUseOurTool from '@/components/sections/WhyUseOurTool';
 import FAQSection from '@/components/sections/FAQSection';
 import Footer from '@/components/sections/Footer';
@@ -12,10 +13,14 @@ export default function Home() {
     <main className="min-h-screen">
       <HeroSection />
       <CoreFeatures />
-      <HowToCheck />
       <HowToUse />
-      <MonetizationRequirements />
+      <HowToCheck />
       <WhyUseOurTool />
+      <HowToCheckVideoMonetization />
+      <HowToCheckShortsMonetization />
+      <MonetizationRequirements />
+      <HowTheCheckerWorks />
+      <WhyNotMonetized />
       <FAQSection />
       <Footer />
       {/* 其他部分将在后续添加 */}

@@ -16,8 +16,8 @@ const socialLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-gray-300 pt-12 pb-8 border-t border-gray-800">
-      <div className="max-w-4xl mx-auto px-4 flex flex-col items-center gap-6">
+    <footer className="bg-gradient-to-b from-gray-50 via-white to-blue-50 py-12">
+      <div className="max-w-6xl mx-auto px-4 my-8">
         {/* 第一行：社交图标 */}
         <div className="flex gap-4 mb-2">
           {socialLinks.map((s) => (
