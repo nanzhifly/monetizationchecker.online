@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 红色圆角矩形，铺满画布 -->
+  <rect x="0" y="0" width="40" height="40" rx="10" fill="#FF0000"/>
+  <!-- 白色播放按钮，居中且尽量大 -->
+  <polygon points="15,11 30,20 15,29" fill="white"/>
+</svg> 

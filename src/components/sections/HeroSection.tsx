@@ -5,6 +5,7 @@ import { parseYouTubeUrl } from '@/utils/youtube/validator';
 import { checkYouTubeContent, type YouTubeCheckResult } from '@/utils/youtube/api';
 import { formatViewCount } from '@/utils/youtube/validator';
 import { MagnifyingGlassIcon } from '@heroicons/react/24/solid';
+import Image from 'next/image';
 
 export default function HeroSection() {
   const [url, setUrl] = useState('');
@@ -37,12 +38,11 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="min-h-[80vh] flex flex-col items-center justify-center px-4 py-24 bg-white relative">
-      <div className="max-w-[800px] w-full mx-auto my-8">
+    <section className="flex flex-col items-center justify-center px-4 pt-16 pb-8 bg-white relative">
+      <div className="max-w-[800px] w-full mx-auto my-2">
         <div className="max-w-[800px] w-full mx-auto text-center mb-8">
-          <h1 className="text-center">
-            YouTube Monetization Checker
-          </h1>
+          <Image src="/logo.svg" alt="YouTube Monetization Checker Logo" width={60} height={60} className="mx-auto mt-2 mb-0" priority />
+          <h1 className="text-center">YouTube Monetization Checker</h1>
         </div>
         <div className="max-w-[800px] w-full mx-auto">
           <div className="border-2 border-dashed border-gray-300 rounded-2xl p-2">

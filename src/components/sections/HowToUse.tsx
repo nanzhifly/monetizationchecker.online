@@ -28,7 +28,7 @@ export default function HowToUse() {
   return (
     <section>
       <div className="max-w-[800px] mx-auto my-8">
-        <div className="my-4 p-4 rounded-xl bg-white shadow">
+        <div className="card p-4 my-4">
           <h2 className="text-center font-bold">
             Supported YouTube URLs
           </h2>

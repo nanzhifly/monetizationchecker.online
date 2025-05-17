@@ -5,7 +5,7 @@ export default function MonetizationConclusion() {
   return (
     <section>
       <div className="max-w-[800px] mx-auto my-8">
-        <div className="my-4 p-4 rounded-xl bg-white shadow">
+        <div className="card p-4 my-4">
           <h2 className="text-center font-bold">Conclusion: Start Tracking Your Monetization Progress Today</h2>
           <p className="mb-4">
             In today's competitive creator economy, understanding your YouTube monetization status is essential for long-term growth. Whether you're just starting out or managing an established channel, having access to clear, actionable insights can significantly impact your revenue strategy.

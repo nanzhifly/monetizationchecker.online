@@ -29,8 +29,8 @@ export default function CoreFeatures() {
 
   return (
     <section>
-      <div className="max-w-[800px] mx-auto my-8">
-        <div className="bg-white rounded-xl shadow my-4 p-4">
+      <div className="max-w-[800px] mx-auto my-4">
+        <div className="card p-4 my-4">
           <h2 className="text-center font-bold">
             What is YouTube Monetization Checker?
           </h2>
