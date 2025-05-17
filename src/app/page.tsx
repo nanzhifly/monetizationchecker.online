@@ -4,6 +4,11 @@ import HowToCheck, { HowToCheckVideoMonetization, HowToCheckShortsMonetization }
 import HowToUse from '@/components/sections/HowToUse';
 import MonetizationRequirements, { HowTheCheckerWorks } from '@/components/sections/MonetizationRequirements';
 import WhyNotMonetized from '@/components/sections/WhyNotMonetized';
+import CommonReasonsNotMonetized from '@/components/sections/CommonReasonsNotMonetized';
+import HowToGetMonetized from '@/components/sections/HowToGetMonetized';
+import BestPracticesMonetization from '@/components/sections/BestPracticesMonetization';
+import Monetization2024Info from '@/components/sections/Monetization2024Info';
+import MonetizationConclusion from '@/components/sections/MonetizationConclusion';
 import WhyUseOurTool from '@/components/sections/WhyUseOurTool';
 import FAQSection from '@/components/sections/FAQSection';
 import Footer from '@/components/sections/Footer';
@@ -21,6 +26,11 @@ export default function Home() {
       <MonetizationRequirements />
       <HowTheCheckerWorks />
       <WhyNotMonetized />
+      <CommonReasonsNotMonetized />
+      <HowToGetMonetized />
+      <BestPracticesMonetization />
+      <Monetization2024Info />
+      <MonetizationConclusion />
       <FAQSection />
       <Footer />
       {/* 其他部分将在后续添加 */}
