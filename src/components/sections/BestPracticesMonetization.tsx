@@ -6,7 +6,7 @@ export default function BestPracticesMonetization() {
     <section>
       <div className="max-w-[800px] mx-auto my-8">
         <div className="card p-4 my-4">
-          <h2 className="text-center font-bold">Best Practices for Monetizing Your YouTube Channel</h2>
+          <h2 className="font-bold">Best Practices for Monetizing Your YouTube Channel</h2>
           <p className="mb-4">
             Successfully monetizing your channel goes beyond meeting basic eligibility. Below are practical strategies to help you grow revenue and build a sustainable YouTube presence.
           </p>

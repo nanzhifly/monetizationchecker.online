@@ -8,7 +8,7 @@ export default function FAQSection() {
     <section>
       <div className="max-w-[800px] mx-auto my-8">
         <div className="card p-4 my-4">
-          <h2 className="text-center font-bold">Frequently Asked Questions</h2>
+          <h2 className="font-bold">Frequently Asked Questions</h2>
           {/* Q1 */}
           <div className="mb-6">
             <h3 className="font-bold mb-1">Q. How can I check whether another YouTube channel is monetized or not?</h3>

@@ -6,7 +6,7 @@ export default function Monetization2024Info() {
     <section>
       <div className="max-w-[800px] mx-auto my-8">
         <div className="card p-4 my-4">
-          <h2 className="text-center font-bold">What You Need to Know About YouTube Monetization in 2024</h2>
+          <h2 className="font-bold">What You Need to Know About YouTube Monetization in 2024</h2>
           <p className="mb-4">
             Before you apply for monetization, make sure your channel meets these foundational requirements. These factors are essential for eligibility and long-term compliance with the YouTube Partner Program (YPP).
           </p>

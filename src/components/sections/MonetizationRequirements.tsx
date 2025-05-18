@@ -42,7 +42,7 @@ export default function MonetizationRequirements() {
     <section>
       <div className="max-w-[800px] mx-auto my-8">
         <div className="card p-4 my-4">
-          <h2 className="text-center font-bold">
+          <h2 className="font-bold">
             YouTube Monetization Requirements
           </h2>
           <p>
@@ -84,7 +84,7 @@ export function HowTheCheckerWorks() {
     <section>
       <div className="max-w-[800px] mx-auto my-8">
         <div className="card p-4 my-4">
-          <h2 className="text-center font-bold">How the YouTube Monetization Checker Works?</h2>
+          <h2 className="font-bold">How the YouTube Monetization Checker Works?</h2>
           <p>
             Our tool evaluates whether a YouTube channel or video is monetized by analyzing both technical and public data. Here's how it functions:
           </p>

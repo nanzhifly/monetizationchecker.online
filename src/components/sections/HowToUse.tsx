@@ -29,7 +29,7 @@ export default function HowToUse() {
     <section>
       <div className="max-w-[800px] mx-auto my-8">
         <div className="card p-4 my-4">
-          <h2 className="text-center font-bold">
+          <h2 className="font-bold">
             Supported YouTube URLs
           </h2>
           <p>

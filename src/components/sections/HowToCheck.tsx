@@ -27,7 +27,7 @@ export default function HowToCheck() {
     <section>
       <div className="max-w-[800px] mx-auto my-8">
         <div className="card p-4 my-4">
-          <h2 className="text-center font-bold">
+          <h2 className="font-bold">
             How to Check If a YouTube Channel Is Monetized?
           </h2>
           <p>
@@ -55,7 +55,7 @@ export function HowToCheckVideoMonetization() {
     <section>
       <div className="max-w-[800px] mx-auto my-8">
         <div className="card p-4 my-4">
-          <h2 className="text-center font-bold">
+          <h2 className="font-bold">
             How to Check If a YouTube Video Is Monetized?
           </h2>
           <p>
@@ -82,7 +82,7 @@ export function HowToCheckShortsMonetization() {
     <section>
       <div className="max-w-[800px] mx-auto my-8">
         <div className="card p-4 my-4">
-          <h2 className="text-center font-bold">
+          <h2 className="font-bold">
             How to Check If a YouTube Shorts Video Is Monetized?
           </h2>
           <p>

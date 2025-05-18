@@ -6,7 +6,7 @@ export default function HowToGetMonetized() {
     <section>
       <div className="max-w-[800px] mx-auto my-8">
         <div className="card p-4 my-4">
-          <h2 className="text-center font-bold">How to Get Monetized on YouTube?</h2>
+          <h2 className="font-bold">How to Get Monetized on YouTube?</h2>
           <p className="mb-4">
             To monetize your YouTube channel effectively, follow these structured steps based on YouTube's official monetization guidelines.
           </p>

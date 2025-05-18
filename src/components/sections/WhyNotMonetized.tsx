@@ -6,7 +6,7 @@ export default function WhyNotMonetized() {
     <section>
       <div className="max-w-[800px] mx-auto my-8">
         <div className="card p-4 my-4">
-          <h2 className="text-center font-bold">Why Your YouTube Channel May Not Be Monetized?</h2>
+          <h2 className="font-bold">Why Your YouTube Channel May Not Be Monetized?</h2>
           {/* 1. Not Meeting the Minimum Requirements */}
           <h3 className="font-bold flex items-center mb-1 mt-6">📌 <span className="ml-2">1. Not Meeting the Minimum Requirements</span></h3>
           <ul className="list-disc pl-8 mb-4">
