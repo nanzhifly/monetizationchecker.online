@@ -83,7 +83,7 @@ export function HowToCheckShortsMonetization() {
       <div className="max-w-[800px] mx-auto my-8">
         <div className="card p-4 my-4">
           <h2 className="font-bold">
-            How to Check If a YouTube Shorts Video Is Monetized?
+            Check If a YouTube Shorts Video Is Monetized
           </h2>
           <p>
             Shorts have different monetization rules than regular videos. Here's what to look for:
