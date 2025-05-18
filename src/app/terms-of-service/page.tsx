@@ -1,5 +1,14 @@
 import Footer from '@/components/sections/Footer';
 
+export const metadata = {
+  title: 'Terms of Service - YouTube Monetization Checker',
+  description: 'Review the terms of service for using YouTube Monetization Checker. Understand your rights, responsibilities, and our service limitations.',
+  keywords: 'terms of service, YouTube monetization, user agreement, online tool, service policy',
+  alternates: {
+    canonical: 'https://www.monetizationchecker.online/terms-of-service',
+  },
+};
+
 export default function TermsOfService() {
   return (
     <>

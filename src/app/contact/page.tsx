@@ -1,5 +1,14 @@
 import Footer from '@/components/sections/Footer';
 
+export const metadata = {
+  title: 'Contact Us - YouTube Monetization Checker',
+  description: 'Contact the YouTube Monetization Checker team for support, business inquiries, or feedback. We are here to help with your monetization questions.',
+  keywords: 'contact, support, YouTube monetization, business inquiry, help, online tool',
+  alternates: {
+    canonical: 'https://www.monetizationchecker.online/contact',
+  },
+};
+
 export default function Contact() {
   return (
     <>

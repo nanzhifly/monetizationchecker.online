@@ -9,10 +9,8 @@ import { useState } from 'react';
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const navLinks = [
-    { name: 'Home', href: '#' },
-    { name: 'About Us', href: '#about' },
-    { name: 'Contact Us', href: '#contact' },
-    { name: 'Blog', href: '#blog' },
+    { name: 'Home', href: '/' },
+    { name: 'Contact Us', href: '/contact' },
   ];
 
   return (
@@ -29,7 +27,7 @@ export default function Navbar() {
             priority
           />
           <span className="text-[#212529] text-[15px] sm:text-[18px] font-medium font-[system-ui,-apple-system,\'Segoe UI\',\'Helvetica Neue\',Arial,\'Noto Sans\',\'Liberation Sans\',sans-serif] leading-tight">
-            <span className="block sm:inline">YouTube</span>
+            <span className="block sm:inline">YouTube</span>{' '}
             <span className="block sm:inline">Monetization Checker</span>
           </span>
         </a>

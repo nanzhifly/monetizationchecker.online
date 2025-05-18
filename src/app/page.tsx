@@ -13,6 +13,12 @@ import WhyUseOurTool from '@/components/sections/WhyUseOurTool';
 import FAQSection from '@/components/sections/FAQSection';
 import Footer from '@/components/sections/Footer';
 
+export const metadata = {
+  title: 'YouTube Monetization Checker - Channel Monetize Online',
+  description: 'YouTube Monetization Checker is a free online tool to check if any YouTube channel is monetized. Quickly verify and analyze channel monetization status.',
+  keywords: 'YouTube monetization, channel checker, YouTube earnings, YouTube ads, YouTube Partner Program, monetize online',
+};
+
 export default function Home() {
   return (
     <main className="min-h-screen">

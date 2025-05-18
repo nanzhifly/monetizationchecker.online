@@ -1,5 +1,14 @@
 import Footer from '@/components/sections/Footer';
 
+export const metadata = {
+  title: 'Privacy Policy - YouTube Monetization Checker',
+  description: 'Read the privacy policy for YouTube Monetization Checker. Learn how we collect, use, and protect your data when using our monetization checking tool.',
+  keywords: 'privacy policy, YouTube monetization, data protection, user privacy, online tool',
+  alternates: {
+    canonical: 'https://www.monetizationchecker.online/privacy-policy',
+  },
+};
+
 export default function PrivacyPolicy() {
   return (
     <>
