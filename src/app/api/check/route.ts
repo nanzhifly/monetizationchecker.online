@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server'
 // 彻底不用任何 TypeScript 类型定义
 // 只用 JS
 
-export async function POST(request) {
+export async function POST(request: Request) {
   try {
     const body = await request.json()
     const { type, id } = body
