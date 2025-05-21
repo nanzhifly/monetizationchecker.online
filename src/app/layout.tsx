@@ -36,52 +36,64 @@ export default function RootLayout({
         <meta name="twitter:description" content="YouTube Monetization Checker is a free online tool to check if any YouTube channel is monetized. Quickly verify and analyze channel monetization status." />
         <meta name="twitter:image" content="https://www.monetizationchecker.online/logo.svg" />
         {/* 结构化数据：WebSite、Organization、Product */}
-        <script type="application/ld+json" suppressHydrationWarning>{`
-          {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "name": "YouTube Monetization Checker",
-            "url": "https://www.monetizationchecker.online/",
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": "https://www.monetizationchecker.online/?q={search_term_string}",
-              "query-input": "required name=search_term_string"
-            }
-          }
-        `}</script>
-        <script type="application/ld+json" suppressHydrationWarning>{`
-          {
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "YouTube Monetization Checker",
-            "url": "https://www.monetizationchecker.online/",
-            "logo": "https://www.monetizationchecker.online/logo.svg",
-            "sameAs": [
-              "https://github.com/ytmonetization"
-            ]
-          }
-        `}</script>
-        <script type="application/ld+json" suppressHydrationWarning>{`
-          {
-            "@context": "https://schema.org",
-            "@type": "SoftwareApplication",
-            "name": "YouTube Monetization Checker",
-            "operatingSystem": "All",
-            "applicationCategory": "WebApplication",
-            "description": "Free online tool to check if any YouTube channel is monetized. Quickly verify and analyze channel monetization status.",
-            "url": "https://www.monetizationchecker.online/",
-            "offers": {
-              "@type": "Offer",
-              "price": "0",
-              "priceCurrency": "USD"
-            },
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "5",
-              "reviewCount": "100"
-            }
-          }
-        `}</script>
+        <script
+          type="application/ld+json"
+          suppressHydrationWarning
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "YouTube Monetization Checker",
+              "url": "https://www.monetizationchecker.online/",
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://www.monetizationchecker.online/?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+              }
+            })
+          }}
+        />
+        <script
+          type="application/ld+json"
+          suppressHydrationWarning
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "YouTube Monetization Checker",
+              "url": "https://www.monetizationchecker.online/",
+              "logo": "https://www.monetizationchecker.online/logo.svg",
+              "sameAs": [
+                "https://github.com/ytmonetization"
+              ]
+            })
+          }}
+        />
+        <script
+          type="application/ld+json"
+          suppressHydrationWarning
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              "name": "YouTube Monetization Checker",
+              "operatingSystem": "All",
+              "applicationCategory": "WebApplication",
+              "description": "Free online tool to check if any YouTube channel is monetized. Quickly verify and analyze channel monetization status.",
+              "url": "https://www.monetizationchecker.online/",
+              "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD"
+              },
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "5",
+                "reviewCount": "100"
+              }
+            })
+          }}
+        />
         {/* 多平台icon声明，保证各类设备和浏览器都能正确显示图标 */}
         <link rel="icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
